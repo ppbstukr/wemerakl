@@ -1,0 +1,214 @@
+.contactus-banner{
+    width: 100%;
+    min-height:24rem;
+    background-image: url(/public/img/topbanner/top_banner04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subCont{
+    width:100%;
+    min-height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contactus{
+    width:60%;
+    min-height: 50rem;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.contactus-text{
+    width:100%;
+    min-height:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactus-text h2{
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.half-contact{
+    width:100%;
+    min-height: 24rem;
+    text-align: center;
+}
+.half-contact2{
+    width:100%;
+    min-height: 20rem;
+    text-align: center;
+    margin-left: 33%;
+}
+
+.question{
+    width:100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question ul{
+    display: flex;
+    width: 100%;
+}
+.question ul li{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ccc;
+}
+
+.question ul li:last-child{
+    border:none;
+}
+
+.question ul li h3{
+    padding-left: 0.5rem;
+    font-size: 100%;
+}
+
+.question ul li img{
+    width:15%;
+}
+
+.map{
+    width:27rem;
+    height:20rem;
+}
+
+.map-text{
+    color: #000;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 1rem;;
+    line-height: 1.5rem;
+}
+
+.map-text h2{
+    font-size: 1.5rem;
+    padding:1rem 0 1rem 0;
+}
+
+.contactus-area{
+    width:40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.contactus-area .contactus-title{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.contactus-area .contactus-title h2{
+    font-size: 1.5rem;
+}
+
+.contactus-area .form-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    width:100%;
+}
+
+.contactus-area .form-area .input-area{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0.5rem;
+}
+
+.contactus-area .form-area .input-area input{
+    width: 100%;
+    height:40px;
+    padding-left: 0.5rem;
+}
+
+.contactus-area .form-area .input-area input::placeholder{
+    color:#bebebe;
+    font-size: 1rem;
+}
+
+.contactus-area .form-area .input-area textarea{
+    width: 100%;
+    height:100px;
+    padding: 0.5rem;
+}
+
+.contactus-area .form-area .input-area textarea::placeholder{
+    color:#bebebe;
+    font-size: 1rem;
+}
+
+.contactus-area .form-area .form-submit{
+    width: 70%;
+    text-align: right;
+}
+
+
+.contactus-area .form-area .form-submit .submit-btn{
+    width: 25%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+}
+
+.contactus-area .form-area .form-submit .submit-btn:hover{
+    font-size: 1rem;
+    background-color: #302b63;
+    color: #fff;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+}
+
+.contactus-area .form-area .form-submit .submit-btn:active{
+    border: none;
+}
+
+@media screen and (max-width:414px){
+    .contactus{
+        width:32rem;
+    }
+    .contactus-text h2{
+        font-size: 0.9rem;
+    }
+    .question ul li{
+        width:10rem;
+        border:none;
+    }
+    .question ul li img{
+        width:1.2rem;
+    }
+    .question ul li h3{
+        font-size:0.8rem;
+    }
+    .top-text>h2{
+        font-size: 0.7rem;
+    }
+}

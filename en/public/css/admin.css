@@ -1,0 +1,168 @@
+
+.subCont table{
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.subCont table thead tr th{
+    border:1px solid #ddd;
+    height: 40px;
+    border-spacing: 0px;
+}
+
+.subCont table tbody{
+    text-align:center;
+}
+
+.subCont table tbody tr td{
+    border:1px solid #ddd;
+    height: 40px;
+    border-spacing: 0px;
+}
+
+/* 관리자 로그인*/
+
+.tbspCi{
+    margin: 1rem 0;
+}
+
+.loginCont{
+    width:100%;
+    height: 100%;
+    background-color: #adcce2;
+}
+
+.loginwrap{
+    width: 64rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color:#ffffff;
+}
+
+.login-form{
+    width:64rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-form .input-area{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.login-form .input-area input{
+    width:50%;
+    height:50px;
+    padding-left: 1em;
+    font-family: 'Roboto', sans-serif!important;
+}
+.login-form .input-area input::placeholder{
+    color:#dcdcdc;
+}
+
+.login-form .form-submit{
+    width:50%;
+    text-align: center;
+}
+
+
+.login-form .form-submit .submit-btn{
+    width:50%;
+    height:50px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3%;
+}
+
+.login-form .form-submit .submit-btn:hover{
+    font-size: 18px;
+    background-color: #0072f5;
+    color: #fff;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+}
+
+.login-form .form-submit .submit-btn:active{
+    border: none;
+}
+.admin_join{
+    width:50%;
+    text-align: center;
+    margin-top:10px;
+}
+
+.join_btn{
+    width:50%;
+    height:50px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 3%;
+}
+
+.join_btn:hover{
+    font-size: 18px;
+    background-color: #0072f5;
+    color: #fff;
+    transition: background-color 1s, color 1s;
+    cursor: pointer;
+}
+
+/* 관리자페이지 */
+
+.admin-area{
+    width:64rem;
+    min-height: 30rem;
+    margin: 0 auto;
+    /* border:1px solid #f00; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.admin-area table{
+    width: 60rem;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.admin-area table thead tr th{
+    border:1px solid #ddd;
+    height: 2rem;
+    border-spacing: 0px;
+}
+
+.admin-area table tbody{
+    text-align:center;
+}
+
+.admin-area table tbody tr td{
+    border:1px solid #ddd;
+    height: 2rem;
+    border-spacing: 0px;
+    font-size: 0.9rem;
+}
+
+.logout{
+    width:60rem;
+    margin: 1rem 0; 
+    padding: 1rem 0;
+    text-align: right;
+}

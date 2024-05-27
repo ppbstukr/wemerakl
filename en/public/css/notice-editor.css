@@ -1,0 +1,62 @@
+.editor-area{
+    width:64rem;
+    min-height: 50%;
+    margin: 1rem auto;
+}
+
+.editor-area table{
+    width:60rem;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    /* border: 1px solid #f00;; */
+}
+
+.editor-area table tbody{
+    width:55rem;
+}
+
+.editor-area table tbody tr{
+    width:55rem;
+}
+
+.editor-area table tbody tr th{
+    width:10rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.editor-area table tbody tr td{
+    width:30rem;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.editor-area table tbody tr td textarea{
+    min-height: 50rem;
+}
+
+.editor-area table tbody tr td input{
+    width:100%;
+}
+
+.subbtn{
+    width:4rem;
+    height:2rem;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused){
+    min-height: 20rem;
+}
+
+.ck-rounded-corners .ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable .ck-rounded-corners{
+    min-height: 20rem;
+}
+
+@media screen and (max-width:414px){
+    .editor-area{width:32rem;}
+    .editor-area table{width:30rem;}
+    .editor-area table tbody{width:22rem;}
+    .editor-area table tbody tr{width:22rem;}
+    .editor-area table tbody tr td{width:10rem;}
+}

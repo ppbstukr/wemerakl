@@ -1,0 +1,403 @@
+.notice-banner{
+    width: 100%;
+    min-height:22rem;
+    background-image: url(/public/img/topbanner/top_banner06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-area{
+    width:100%;
+    min-height: 50%;
+    padding: 2rem 0;
+}
+.notice-content{
+    width:64rem;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+}
+.notice-menu{
+    width:15rem;
+}
+
+.notice-menu>ul{
+    width:100%;
+    text-align: center;
+}
+.notice-menu>ul>li{
+    width:100%;
+    padding:1rem 0;
+    border-bottom: 3px solid #bdbdbd;
+}
+.notice-menu>ul>li>a{
+    color:#707070;
+    font-size: 0.8rem;
+}
+.notice-menu>ul>li:nth-child(4){
+    background-color: #644D9D;
+}
+.notice-menu>ul>li:nth-child(4)>a{
+    color:#fff;
+}
+.notice-menu>ul>li:hover{
+    background-color: #644D9D;
+}
+.notice-menu>ul>li:hover>a{
+    color:#fff;
+}
+
+.notice-board-area{
+    width:100%;
+    height:35rem;
+    padding:1rem 0;
+    position: relative;
+}
+
+.n_title{
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom:3px solid #bdbdbd;
+}
+
+.n_title>h1{
+    font-size: 1.2rem;
+}
+
+/* 소통공간 서브페이지 루트 */
+.route{
+    width:100%;
+    font-size: 0.7rem;
+    color:#dcdcdc;
+    padding: 10px 0;
+}
+.route>a{
+    font-size: 0.7rem;
+    color:#bdbdbd;
+}
+
+/* 공지사항 보드 */
+
+.notice-board{
+    width:100%;
+    display:table;
+    border-width: 5px 0 5px 0;
+    border-style: solid;
+    border-color: #644D9D;
+}
+
+.notice-board ul{
+    list-style: none;
+    margin-bottom: 0;
+    clear:both;
+    display: table-row-group;
+    padding-left: 0;
+}
+
+.notice-board>ul>li{
+    font-size: 0.7rem;
+    padding:15px 7px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgba(33,33,33,0.15);
+    color: rgb(33,33,33);
+}
+
+.notice-board>ul>li.no{
+    width: 5%;
+}
+.notice-board>ul>li.division{
+    width: 10%;
+}
+
+.notice-board>ul>li.name{
+    width:10%;
+}
+.notice-board>ul>li.date{
+    width:20%;
+}
+.notice-board>ul>li.read{
+    width:10%;
+}
+.notice-board>ul>li.title{
+    width:auto;
+}
+.notice-board>ul>li.title a{
+    font-size: 0.7rem;
+    color: rgb(33,33,33);
+}
+
+/* 페이지 처리*/
+.page_num{
+    position: absolute;
+    width: 100%;
+    bottom: 2rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.page_num a{
+    color:#bdbdbd;
+    font-size: 0.8rem;
+}
+.page_num b{
+    /* padding:1px 1px 1px 5px;
+    background-color: #143974;
+    color:#fff;
+    border-radius: 15px; */
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/*게시글 등록버튼*/
+.notice-write{
+    margin-top: 1rem;
+    width:100%;
+    text-align: right;
+    z-index: 99;
+}
+
+.new-notice{
+    font-size: 0.7rem;
+    width:4rem;
+    height:2rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.new-notice:hover{
+    background-color: #644D9D;
+    color:#fff;
+}
+
+/* Q&A 글쓰기 */
+
+.form-area{
+    margin-top: 1rem;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qna_row{
+    width:100%;
+    height:2rem;
+    display: flex;
+    margin-top:5px;
+}
+
+.division{
+    width:25%;
+    margin-right:5px;
+}
+.division select{
+    width:100%;
+    height: 100%;
+    border:1px solid #767676;
+    font-size: 0.7rem;
+    padding-left: 5px;
+}
+
+.title{
+    width:75%;
+}
+
+.title input{
+    width:100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.input-area input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.input-area textarea::placeholder{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.name{
+    width:50%;
+    margin-right: 5px;
+}
+.name input{
+    width:100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.email{
+    width:50%;
+}
+
+.email input{
+    width:100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.phone{
+    width:50%;
+    margin-right: 5px;
+}
+.phone input{
+    width:100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.pwd{
+    width:50%;
+}
+
+.pwd input{
+    width:100%;
+    height: 100%;
+    border: 1px solid #767676;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.qna_content{
+    width:100%;
+    /*height: 30rem;*/
+}
+.qna_content textarea{
+    width:45rem;
+    height: 30rem;
+}
+
+/*게시글 패스워드*/
+
+.pwd-area{
+    width:100%;
+    height:20rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pwd-board{
+    width:20rem;
+    height: 15rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(153, 153, 153, 0.8);
+}
+
+.pwd-board>h2{
+    margin: 1rem 0;
+    color: #644D9D;
+}
+
+.pwd-form{
+    text-align: center;
+}
+
+.pwd-board>p{
+    font-size: 0.8rem;
+    color:#707070;
+    margin-bottom: 1rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.pwd-btn{
+    width:5rem;
+    height:1.5rem;
+    font-size: 0.7rem;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.pw input{
+    font-family: 'Roboto', sans-serif!important;
+}
+.pwd-btn:hover{
+    background-color: #644D9D;
+    color:#fff;
+}
+
+@media screen and (max-width:414px){
+    .notice-menu{
+        display: none;
+    }
+    .notice-content{
+        width:30rem;
+    }
+    .notice-board-area{
+        width:30rem;
+        height:50rem;
+    }
+    .notice-board>ul>li.read{
+        width:12%;
+    }
+    .notice-board>ul>li.name{
+        width:15%;
+    }
+    .notice-board>ul>li.division{
+        width:15%;
+    }
+}
+
+.top_menu{
+    width: 100%;
+    margin: 0 auto;
+    /*height: 62px;*/
+    background-color: rgb(100,77,157);
+}
+
+.top_menu ul{
+    display: flex;
+}
+
+.top_menu ul li{
+    text-align: center;
+    width: 13rem;
+    padding: 16px;
+    display: inline-block;
+}
+
+.top_menu ul li a {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top_menu ul li:hover{
+    background-color: #9999ff;
+}
+
+.bottom-img{
+    width:100%;
+
+    margin: 0 auto;
+}
+
+.bottom-img img{
+    width:100%;
+}

@@ -1,0 +1,401 @@
+.noticeWarp{
+    width:50rem;
+    margin:0 auto;
+    min-height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-top: 5px solid #644d9d;
+    /* box-shadow: 0px 0px 23px 2px rgba(0, 0, 0, 0.25); */
+}
+.notice_route{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid rgba(33,33,33,0.3);
+}
+
+.notice_title{
+    margin: 1rem 0 2rem 0;
+    font-size: 1.2rem;
+}
+
+.author{
+    width:100%;
+    padding:1rem;
+}
+.write{
+    font-size: 0.7rem;
+}
+.date{
+    font-size: 0.7rem;
+    color:rgba(33,33,33,0.5);
+}
+.hit{
+    font-size: 0.7rem;
+    color:rgba(33,33,33,0.5);
+}
+
+.notice_content{
+    width:100%;
+    margin:1rem 0;
+    padding:1rem;
+    box-sizing: border-box;
+}
+
+.notice_content>p{
+    line-height: 2;
+    font-size: 16px;
+}
+
+.notice_content>p>img{
+    max-width: 100%;
+    margin:1rem 0;
+}
+
+.file{
+    font-size: 0.7rem;
+    position: relative;
+    width:100%;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+}
+.file>i{
+    position: absolute;
+    right:1rem;
+}
+
+.list_area{
+    width:100%;
+}
+.list_prev{
+    width:100%;
+    font-size: 0.7rem;
+    padding:10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+.list_prev>i{
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+.list_next>i{
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+.list_next{
+    width:100%;
+    font-size:0.7rem;
+    padding:10px;
+    cursor: pointer;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.noticeWarp table{
+    margin: auto;
+    /* border-top:2px solid #777; */
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+.noticeWarp tbody tr td{
+    width: 60rem;
+    border-bottom:1px solid #ddd;
+    padding: 0.5rem;
+    border-spacing: 0px;
+}
+.noticeWarp table tbody tr .title{
+    padding: 0.5rem;
+    font-weight: 800;
+    font-size: 1rem;
+}
+.noticeWarp table tbody tr .text{
+    min-height: 20rem;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; */
+}
+
+.text>p{
+    line-height: 2rem;
+}
+
+.noticeWarp table tbody tr .text>p{
+    font-size: 0.7rem;
+}
+
+.notice_menu{
+    width: 60rem;
+    margin: 1rem auto;
+}
+
+.notice_list{
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 2rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.3s;
+    display: inline-block;
+    border-radius: 6px;
+}
+.notice_list:hover{
+    background-color: #2B417E;
+    color:#fff;
+}
+
+.menu{
+    margin: 1rem 0;
+    width:100%;
+}
+
+.detail{
+    font-size: 0.7rem;
+    color: rgb(103,103,103);
+}
+.detail>a{
+    font-size: 0.7rem;
+    color: rgb(103,103,103);
+}
+
+/* Q&A Detail */
+
+.qna_area{
+    width:100%;
+    display: flex;
+}
+.answer_area{
+    width:100%;
+    margin-top:1rem;
+}
+
+.qna_contents{
+    width:100%;
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    clear:both;
+    border-top: 1px solid rgbs(128,128,128,0.2);
+}
+.qna_contents li{
+    padding:10px;
+    font-size: 0.7rem;
+    border:1px solid rgba(128, 128, 128, 0.2);
+    border-width: 0 1px 1px 0;
+    font-size: 0.7rem;
+    padding:15px 7px;
+    text-align: center;
+}
+.user{
+    width:20%;
+    color:#fff;
+    background-color: #143974;
+}
+.user_name{
+    width:30%;
+}
+.crt{
+    width:20%;
+    color:#fff;
+    background-color: #143974;
+}
+.created{
+    width:30%;
+}
+.qna_text{
+    box-sizing: border-box;
+    width:100%;
+    min-height: 15rem;
+    padding:1.5rem;
+    border:1px solid rgba(128, 128, 128, 0.2);
+    border-width: 0 1px 1px 1px;
+    font-size:0.8rem;
+}
+
+.qna_answer{
+    box-sizing: border-box;
+    width:100%;
+    padding:1.5rem;
+    border:1px solid rgba(128, 128, 128, 0.2);
+    border-width: 0 1px 1px 1px;
+    font-size: 0.8rem;
+}
+
+.qna_menu{
+    width:100%;
+    margin-top:1%;
+    position: relative;
+    text-align: center;
+}
+
+.answer_btn{
+    position: relative;
+    float: right;
+    right: 0;
+    margin-right: 1rem;
+}
+.answer_content{
+    width:100%;
+}
+.answer_row{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    margin-top: 5px;
+}
+.form-area{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lab{
+    width: 50%;
+    margin-right: 5px;
+}
+
+.lab input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.name{
+    width: 50%;
+}
+
+.name input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+
+.phone{
+    width: 50%;
+    margin-right: 5px;
+}
+.phone input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+.email{
+    width: 50%;
+}
+.email input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #767676;
+}
+.input-area input::placeholder{
+    padding-left: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.input-area textarea::placeholder{
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+.answer_text{
+    width: 100%;
+    margin: 5pt 0;
+    min-height: 20rem;
+}
+.answer_text textarea{
+    width: 100%;
+    height:100%;
+}
+
+.submit_row{
+    width: 100%;
+    margin:5px 0 20px 0;
+}
+
+.submit-btn{
+    width:4rem;
+    height:2rem;
+    background-color: #fff;
+    font-size: 0.7rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background-color: #143974;
+    color:#fff;
+}
+
+/* 인용문 */
+blockquote{
+    padding:10px 0 10px 12px;
+    margin:0 0 0 20px;
+    border-left:5px solid #c2c2c2
+}
+blockquote p{
+    margin-bottom:0;
+    font-size:14.5px;
+    font-weight:300;
+    line-height:2.25;
+}
+
+/*콜아웃*/
+.callout{
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.callout>p{
+    font-size: 0.8rem;
+}
+
+
+@media screen and (max-width:414px){
+
+    .noticeWarp{
+        width:30rem;
+    }
+    .noticeWarp table{
+        margin: 0;
+    }
+    .notice_menu{
+        width: 30rem;
+        margin: 1rem auto;
+    }
+    .notice_list{
+        width:3rem;
+        height:2rem;
+        font-size: 1rem;
+    }
+    .text>p{
+        width:30rem;
+    }
+    .text span{
+        font-size: 0.8rem !important;
+    }
+    .text img{
+        width:30rem;
+    }
+    .text strong{
+        width:30rem;
+        font-size: 1rem !important;
+    }
+    .text a{
+        font-size: 0.8rem !important;
+    }
+
+    .notice_content img{
+        width:100%;
+    }
+    
+}

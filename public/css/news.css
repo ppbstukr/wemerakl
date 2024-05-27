@@ -1,0 +1,114 @@
+.news-banner{
+    width: 100%;
+    min-height:24rem;
+    background-image: url(/public/img/topbanner/top_banner05.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-area{
+    width:64rem;
+    min-height: 40rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin:0 auto;
+}
+
+.news-title{
+    width:100%;
+    min-height: 10vh;
+    margin:1rem 0 2rem 0;
+    /* border:1px solid #f00; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.news-title h1{
+    font-size:1.2rem;
+    color: #644D9D;
+    margin:2rem 0;
+}
+
+.news-title h3{
+    font-size:1rem;
+    color: #8C8C8C;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.news-content{
+    width:50rem;
+    height:8rem;
+    padding:2rem;
+    margin-bottom: 2rem;
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+}
+
+.news-content:hover{
+    background-color: rgba(240, 240, 240, 0.4);
+}
+
+.news-date{
+    font-size: 0.8rem;
+    color:rgb(112,109,109);
+    margin-bottom: 1rem;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.news-name{
+    font-size: 1.2rem;
+    color:#644D9D;
+    margin-bottom:2rem ;
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.news-text{
+    font-size: 0.8rem;
+    color:rgb(112,109,109);
+    font-family: 'Roboto', sans-serif!important;
+}
+
+.newsadd{
+    width:100px;
+    height:40px;
+}
+
+@media screen and (max-width:414px){
+    .news-area{
+        width:32rem;
+    }
+
+    .news-content{
+        width:25rem;
+    }
+    .news-banner{
+        min-height: 15rem;
+    }
+    .news-date{
+        font-size: 0.7rem;
+    }
+    
+    .news-name{
+        font-size: 0.8rem;
+        color:#644D9D;
+        margin-bottom:2rem ;
+        font-family: 'Roboto', sans-serif!important;
+    }
+    
+    .news-text{
+        font-size: 0.7rem;
+        color:rgb(112,109,109);
+        font-family: 'Roboto', sans-serif!important;
+    }
+}

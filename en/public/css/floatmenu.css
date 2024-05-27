@@ -1,0 +1,93 @@
+#floatMenu {
+	position: absolute;
+	width: 80px;
+	height: 300px;
+	right: 0px;
+	top: 40%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+	background-color: rgba(0, 0, 0);
+	color: #fff;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.Icon{
+    width: 80px;
+    height:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 1rem; */
+    font-size: 0.7rem;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+.Icon>span{
+    color:#fff;
+    display: none;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.Icon:first-child:hover{
+    width:250px;
+    height: 75px;
+    right: 0px;
+    justify-content:flex-end;
+	background-color: rgba(52, 52, 52);
+}
+
+.Icon:hover>span{
+    display: flex;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+.Icon:hover>img{
+    margin-right: 1rem;
+}
+
+.Icon:nth-child(2):hover{
+    width:300px;
+    height: 75px;
+    right: 0px;
+    justify-content:flex-end;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Icon:nth-child(3):hover{
+    width:300px;
+    height: 75px;
+    right: 0px;
+    justify-content:flex-end;
+    background: #f7ff00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Icon:nth-child(4):hover{
+    width:300px;
+    height: 75px;
+    right: 0px;
+    justify-content:flex-end;
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.Icon:last-child{
+    margin:0;
+}
+
+.Icon>img{
+    height:48px;
+}
+
+@media screen and (max-width:414px){
+    #floatMenu{
+        display: none;
+    }
+}

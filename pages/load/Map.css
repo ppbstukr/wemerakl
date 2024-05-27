@@ -1,0 +1,2361 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th,
+table td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+table th {
+  background-color: rgb(100, 77, 157);
+  color: white;
+  text-align: center;
+}
+
+table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
+.pagination b {
+  padding: 8px 16px;
+  background-color: #ddd;
+  border: 1px solid #999;
+  margin: 0 4px;
+}
+
+.upload-form {
+  margin-bottom: 20px;
+}
+
+.upload-form input[type="file"] {
+  display: none;
+}
+
+.upload-form label {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.upload-form label:hover {
+  background-color: #ddd;
+}
+
+.upload-form input[type="submit"] {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.upload-form input[type="submit"]:hover {
+  background-color: #ddd;
+}
+#otherField:disabled {
+  background: #f7f8f9;
+}
+#otherField2:disabled {
+  background: #f7f8f9;
+}
+.button-checkbox {
+  height: 50px;
+  width: 121px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox2 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox3 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox4 {
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox5 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox6 {
+  height: 50px;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox7 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-checkbox8 {
+  height: 55px;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.3s;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-checkbox9 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+.button-checkbox10 {
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.col12 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 66.66667%;
+  flex: 0 0 66.66667%;
+  max-width: 66.66667%;
+}
+
+.jcs {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .button-checkbox {
+    height: 50px;
+    width: 162px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox2 {
+    height: 50px;
+    width: 162px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox3 {
+    height: 50px;
+    width: 162px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox4 {
+    height: 50px;
+    width: 106px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox5 {
+    height: 50px;
+    width: 162px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox6 {
+    height: 50px;
+    width: 106px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .button-checkbox7 {
+    height: 50px;
+    width: 162px;
+    display: inline-block;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .mr2 {
+    margin-right: 0.5rem !important;
+  }
+
+  .jcs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wid {
+    width: 336px;
+  }
+}
+.wid {
+  max-width: 1095px;
+}
+.wid2 {
+  width: 1022px;
+}
+.button-checkbox:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox2:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox3:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox4:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox5:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox6:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox7:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+.button-checkbox9:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+.button-checkbox10:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.button-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox2 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox3 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox4 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox5 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox6 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox7 input[type="checkbox"] {
+  display: none;
+}
+.button-checkbox9 input[type="checkbox"] {
+  display: none;
+}
+.button-checkbox10 input[type="checkbox"] {
+  display: none;
+}
+
+.button-checkbox.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox2.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox2.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox3.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox3.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox4.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox4.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox5.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox5.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox6.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox6.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox7.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox7.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox9.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox9.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-checkbox10.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+/* 체크 아이콘 스타일 */
+.button-checkbox10.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png"); /* 체크 아이콘 (유니코드) */
+  width: 15px; /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 100px 0 0;
+}
+.button-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Support_SupportItem__OIrVn {
+  padding: 30px 0px 30px 0;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Support_SupportItem__OIrVn .Support_leftArea__xlBCw {
+  width: 80%;
+  font-size: 13px;
+}
+
+.Support_SupportItem__OIrVn .Support_leftArea__xlBCw .Support_itemTop__1beLY {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemTop__1beLY
+  ol {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemTop__1beLY
+  ol
+  li {
+  color: #595d66;
+  background: #f1f3f8;
+  padding: 8px 15px 6px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  h4
+  button {
+  padding: 0;
+  letter-spacing: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  text-align: left;
+  border: none;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 33px;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  p
+  .Support_moneyTit__eFiaS {
+  font-size: 14px;
+  color: #666666;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  p
+  .Support_moneyAmount__kP347 {
+  font-size: 17px;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  p
+  .Support_moneyTit__eFiaS {
+  font-size: 14px;
+  color: #666666;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_leftArea__xlBCw
+  .Support_itemInfo__7jxr-
+  p
+  .Support_moneyAmount__kP347 {
+  font-size: 17px;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 {
+  width: 14%;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: column;
+  gap: 10px;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul li {
+  flex: 1 1;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul li span {
+  font-size: 13px;
+  padding-top: 3px;
+  color: #666666;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul li {
+  flex: 1 1;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul li span {
+  font-size: 13px;
+  padding-top: 3px;
+  color: #666666;
+}
+
+.Support_SupportItem__OIrVn
+  .Support_rightArea__AhIm3
+  ul
+  li.Support_btnZzim__-IMxo {
+  box-shadow: 0px 3px 10px 0px rgba(78, 78, 78, 0.3);
+}
+
+.Support_SupportItem__OIrVn
+  .Support_rightArea__AhIm3
+  ul
+  li.Support_btnZzim__-IMxo
+  button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.Support_SupportItem__OIrVn .Support_rightArea__AhIm3 ul li span {
+  font-size: 13px;
+  padding-top: 3px;
+  color: #666666;
+}
+
+.Support_SupportContent__ivK6D
+  .Support_contArea__TQvn-
+  .Support_itemWrap__DYl31 {
+  border-top: 3px solid #000;
+}
+
+.button-text2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: 600;
+  font-size: 17px;
+}
+.button-text3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  width: 100%;
+  font-weight: 600;
+  font-size: 17px;
+}
+.button-text4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 100%;
+  font-size: 12px;
+}
+
+.modal {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(100%); /* 모달창을 화면 아래로 위치시키기 */
+  transition: transform 0.5s; /* 슬라이딩 애니메이션 효과 적용 */
+}
+.modal.hide {
+  display: none;
+}
+.modal.show {
+  transform: translateY(0); /* 모달창을 원래 위치로 되돌리기 */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 20px;
+  width: 1293px;
+  height: 546px;
+  background-image: url("/public/img/banner/자산\ 31.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  position: relative;
+}
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 5% auto;
+  /* border: 1px solid #888; */
+  width: 105rem;
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top: 10px solid #7f5cde;
+}
+
+.close {
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: -50px;
+  right: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-body {
+  text-align: center; /* 텍스트를 중앙에 정렬 */
+  font-size: 24px; /* 글자 크기를 크게 설정 */
+  padding: 25px 0; /* 상하 패딩을 주어 내용이 중앙에 오도록 함 */
+}
+.modal-body2 {
+  /* text-align: center; 텍스트를 중앙에 정렬 */
+  font-size: 24px; /* 글자 크기를 크게 설정 */
+  padding: 25px 0; /* 상하 패딩을 주어 내용이 중앙에 오도록 함 */
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* .cont3 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../public/img/banner/레이어\ 8.png");
+} */
+.cont3 {
+  width: 100%;
+  min-height: 125rem;
+  /* background: #f2f4f6; */
+  background: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+.consultingPage {
+  width: 100%;
+  min-height: 78rem;
+  /* background: #f2f4f6; */
+  background: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.ddddBtn {
+  width: 100%;
+  height: 55px;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  transition: background-color 0.3s;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.questionBtn2 {
+  height: 50px;
+  width: 18.5rem;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionBtn2:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.questionBtn2 input[type="checkbox"] {
+  display: none;
+}
+
+.questionBtn2.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+/* 체크 아이콘 스타일 */
+.questionBtn2.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png");
+  /* 체크 아이콘 (유니코드) */
+  width: 15px;
+  /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 257px 0 0;
+}
+
+.questionBtn1 {
+  height: 50px;
+  width: 10.5rem;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-weight: 600;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.questionBtn1:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.questionBtn1 input[type="checkbox"] {
+  display: none;
+}
+
+.questionBtn1.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+/* 체크 아이콘 스타일 */
+.questionBtn1.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png");
+  /* 체크 아이콘 (유니코드) */
+  width: 15px;
+  /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 140px 0 0;
+}
+.blurred-text {
+  color: transparent; /* 글자를 투명하게 만듭니다. */
+  filter: blur(5px);
+  user-select: none; /* 그림자를 추가하여 블러 효과를 줍니다. */
+}
+.imgCheckList {
+  margin-top: -12rem;
+  margin-left: 89rem;
+  width: 16rem;
+  height: 16rem;
+}
+.imgCheckList2 {
+  margin-top: -13rem;
+  margin-left: 88rem;
+  width: 16rem;
+  height: 16rem;
+}
+.hidden {
+  display: none;
+}
+/* 로딩 스타일 */
+#loading {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #7f5cde;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  background: #7f5cde;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-animation: sk-rotateplane 1.5s infinite ease-in-out;
+  animation: sk-rotateplane 1.5s infinite ease-in-out;
+  position: absolute;
+  top: 50%; /* 화면 세로 중앙에 위치 */
+  left: 50%; /* 화면 가로 중앙에 위치 */
+  transform: translate(-50%, -50%); /* 가운데 정렬을 위한 변형 */
+  z-index: 999;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% {
+    -webkit-transform: perspective(120px);
+  }
+
+  50% {
+    -webkit-transform: perspective(120px) rotateY(180deg);
+  }
+
+  100% {
+    -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+  }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+.questionBtn3 {
+  height: 50px;
+  width: 10rem;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+.questionBtn3:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.questionBtn3 input[type="checkbox"] {
+  display: none;
+}
+
+.questionBtn3.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+/* 체크 아이콘 스타일 */
+.questionBtn3.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png");
+  /* 체크 아이콘 (유니코드) */
+  width: 15px;
+  /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 140px 0 0;
+}
+
+.questionBtn4 {
+  height: 50px;
+  width: 22rem;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+.questionBtn4:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.questionBtn4 input[type="checkbox"] {
+  display: none;
+}
+
+.questionBtn4.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+/* 체크 아이콘 스타일 */
+.questionBtn4.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png");
+  /* 체크 아이콘 (유니코드) */
+  width: 15px;
+  /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 298px 0 0;
+}
+
+.questionBtn5 {
+  height: 50px;
+  width: 16rem;
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  transition: background-color 0.3s;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.questionBtn5:hover {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+.questionBtn5 input[type="checkbox"] {
+  display: none;
+}
+
+.questionBtn5.clicked {
+  /* span의 배경색을 투명하게 만들어 라벨의 배경색이 보이도록 합니다. */
+  background-color: rgba(153, 139, 197, 0);
+  /* background-color: #998bc5; */
+  color: #998bc5;
+  /* color: white; */
+  border: 2px solid #998bc5;
+}
+
+/* 체크 아이콘 스타일 */
+.questionBtn5.clicked::before {
+  content: url("../../public/img/banner/체크버튼3.png");
+  /* 체크 아이콘 (유니코드) */
+  width: 15px;
+  /* 이미지의 너비 */
+  display: inline-block;
+  margin: 0 257px 0 0;
+}
+.paymentBtn {
+  width: 600px;
+  height: 55px;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  transition: background-color 0.3s;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  transition: 0.3s;
+  background: #f6f5fa;
+  width: 45%;
+  height: 500px;
+  margin: 1.5%;
+  border-radius: 15px;
+  padding: 30px 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.cardList {
+  transition: 0.3s;
+  background: #f6f5fa;
+  width: 45rem;
+  height: 500px;
+  margin: 1.5% 0;
+  border-radius: 15px;
+  padding: 30px 20px 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
+}
+.titleH {
+  width: 100%;
+  height: 3.5rem;
+  background: #f6f5fa;
+  border: 2px solid #7f5cde;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -2px;
+}
+
+.card-content p {
+  margin: 16px 0;
+  /* 텍스트 사이 간격 조정 */
+  color: #555;
+}
+
+.card-content p span {
+  font-weight: bold;
+  /* 항목 이름 볼드체로 표시 */
+}
+
+.cardCon {
+  overflow-y: auto;
+  height: calc(100% - 30px);
+}
+
+/* Chrome, Edge, Safari */
+.cardCon::-webkit-scrollbar {
+  width: 0;
+}
+
+/* .cardCon:hover::-webkit-scrollbar {
+  width: 12px;
+} */
+
+.cardCon::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+}
+
+.cardCon::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.cardCon::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Firefox */
+.cardCon {
+  scrollbar-width: none;
+}
+
+/* .cardCon:hover {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+} */
+
+/* IE */
+.cardCon {
+  -ms-overflow-style: none;
+}
+
+/* .cardCon:hover {
+  -ms-overflow-style: auto;
+} */
+
+.cont4 {
+  width: 100%;
+  min-height: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.saup {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  /* background: #8E7DB8; */
+}
+
+.btnSub {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+
+.purpleBox {
+  background-color: #f7f4fb;
+  width: 50rem;
+  height: 27rem;
+  border-radius: 20px;
+  padding: 2.5% 3% 3.5% 3%;
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btnContainer {
+  position: relative;
+}
+
+.btnDown {
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  width: 41rem;
+  height: 7rem;
+  border-radius: 55px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.btnDown2 {
+  background: white;
+  width: 35.5rem;
+  height: 4.5rem;
+  border-radius: 45px;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1.25rem;
+  margin-left: 6.5rem;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+
+.btnDown2.noShadow {
+  /* btnDown2에 그림자를 없애는 클래스 */
+  box-shadow: none;
+}
+
+.btnDown:hover {
+  background: #d1ccec;
+}
+
+.btnNum {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconDiv {
+  width: 7rem;
+  height: 2rem;
+  color: black;
+  border-right: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleDiv {
+  width: 60rem;
+  height: 2rem;
+  font-weight: 600;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.infos {
+  font-size: 17px;
+}
+
+.listContent2 {
+  margin: 0 6.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.list_area {
+  width: 100%;
+  min-height: 50%;
+  padding: 7.5rem 0;
+}
+.videoModalClass {
+  display: block;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(100%); /* 모달창을 화면 아래로 위치시키기 */
+  transition: transform 0.5s; /* 슬라이딩 애니메이션 효과 적용 */
+}
+.videoModal-content {
+  background-color: #fefefe;
+  margin: 8% auto 0 auto;
+  border: 1px solid #888;
+  width: 90rem;
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.videoModal-body {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.closex {
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closex:hover,
+.closex:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.videoModalClass.show {
+  transform: translateY(0); /* 모달창을 원래 위치로 되돌리기 */
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.image-container2 {
+  width: 90rem;
+  height: 52rem;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/img/banner/강의영상모니터.png");
+}
+.image-container3 {
+  width: 879px;
+  height: 454px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+.image-container4 {
+  width: 62rem;
+  height: 1412px;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/img/bmds/ddddww.jpg");
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.modalScreen {
+  width: 100%;
+  height: 52rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.modalContent {
+  width: 90rem;
+  height: 45rem;
+  display: flex;
+}
+.sidebar {
+  width: 10.5rem;
+  height: 45rem;
+  background-color: #e7e6e6;
+  border-right: 1px solid #e7e6e6;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: width 0.3s ease;
+  overflow: hidden; /* 추가된 부분: 넘치는 부분을 숨김 */
+}
+
+.sidebar.hide {
+  width: 0; /* 너비를 0으로 줄여서 사라지게 함 */
+}
+
+.modalSideBarTitle {
+  width: 10rem;
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  transition: width 0.3s ease; /* 추가된 부분: 너비 변화에 대한 애니메이션 설정 */
+}
+
+.modalSideBarBtnList {
+  width: 10rem;
+  height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  transition: height 0.3s ease; /* 추가된 부분: 높이 변화에 대한 애니메이션 설정 */
+}
+
+.modalSideBarBtnList2 {
+  width: 10rem;
+  height: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modalSideBarBtn {
+  width: 8rem;
+  height: 30px;
+  color: #7f7f7f;
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: width 0.3s ease; /* 추가된 부분: 너비 변화에 대한 애니메이션 설정 */
+}
+
+.modalSideBarBtn input[type="radio"] {
+  display: none;
+}
+
+.modalSideBarBtn.active {
+  background-color: #7f7f7f;
+  color: white;
+}
+
+.hide {
+  width: 0; /* 너비를 0으로 줄여서 사라지게 함 */
+  overflow: hidden; /* 추가된 부분: 넘치는 부분을 숨김 */
+}
+
+.monitor {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+}
+.toggleSidebarButton {
+  width: 100%;
+  margin-bottom: 2.5rem;
+  float: right;
+}
+.toggleSidebarButton img {
+  width: 30px;
+  height: 30px;
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+.monitor2 {
+  width: 100%;
+  height: 576px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.monitor3 {
+  width: 65rem;
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.lectureTitle {
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 0 3%;
+}
+.monitorBorder {
+  width: 65rem;
+  height: 35rem;
+  /* background: linear-gradient(45deg, #1c1c1c, #a4a6a6); */
+  background: black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.monitorScreen {
+  width: 100%;
+  height: 89%;
+  background: white;
+  margin: 2rem;
+}
+
+.monitorStand {
+  width: 0;
+  height: 0;
+  border-left: 90px solid transparent;
+  border-right: 90px solid transparent;
+  border-bottom: 380px solid #e7e6e6;
+  z-index: 1;
+  margin-top: -24rem;
+}
+.modalPurpleBottomBar {
+  background: #a490e4;
+  width: 100%;
+  height: 7rem;
+  padding: 1rem 0 0 5rem;
+}
+
+/* ====================== BMDS Ticket start ====================== */
+
+.bmTicketModalClass {
+  display: block;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(100%); /* 모달창을 화면 아래로 위치시키기 */
+  transition: transform 0.5s; /* 슬라이딩 애니메이션 효과 적용 */
+}
+.bmTicketModal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  width: 105rem;
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top: 10px solid #7f5cde;
+}
+.bmTicketModal-body {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.closeBmTicket {
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBmTicket:hover,
+.closeBmTicket:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.bmTicketModalClass.show {
+  transform: translateY(0);
+}
+.bmTicketUI {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.bmTicketScroll {
+  width: 75rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.03);
+}
+.bmTicketSpace {
+  width: 52rem;
+  height: 21rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/img/banner/ntmtt66h.jpg");
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+  margin: 3rem 0;
+}
+.bmTicketNumQuestion {
+  width: 60rem;
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.bmTicketNum {
+  width: 23rem;
+  height: 3rem;
+  margin: 0 0 2rem 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 767px) {
+  .bmTicketNum {
+    width: 23rem;
+    height: 3rem;
+    margin: 0 0 2rem 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 900;
+  }
+}
+
+.bmTicketDescription {
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.bmTicketDescriptionFont {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.bmTicketBtn {
+  margin-top: 0.5rem;
+  height: 3rem;
+  width: 50rem;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+.bmTicketBtn span {
+  margin-top: 2px;
+  font-size: 15px;
+}
+
+/* ====================== BMDS Ticket end ====================== */
+
+/* ====================== offline Ticket start ====================== */
+
+.offlineTicketModalClass {
+  display: block;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  transform: translateY(100%); /* 모달창을 화면 아래로 위치시키기 */
+  transition: transform 0.5s; /* 슬라이딩 애니메이션 효과 적용 */
+}
+.offlineTicketModal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  width: 105rem;
+  height: 52rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top: 10px solid #7f5cde;
+}
+.offlineTicketModal-body {
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+}
+.closeOfflineTicket {
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeOfflineTicket:hover,
+.closeOfflineTicket:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.offlineTicketModalClass.show {
+  transform: translateY(0);
+}
+.offlineTicketUI {
+  width: 100%;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.offlineTicketScroll {
+  width: 75rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  background: rgba(0, 0, 0, 0.03);
+}
+.offlineTicketSpace {
+  width: 60rem;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/img/banner/offlineTicket.png");
+  box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25);
+  margin: 2rem 0;
+}
+.offlineTicketNumQuestion {
+  width: 60rem;
+  height: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.offlineTicketNum {
+  width: 16.5rem;
+  height: 3rem;
+  margin: 0 0 2rem 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+}
+.offlineTicketQuestion {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.offlineTicketDescription {
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.offlineTicketDescriptionFont {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.offlineTicketBtn {
+  margin-top: 1rem;
+  height: 3rem;
+  width: 50rem;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+}
+.offlineTicketBtn span {
+  margin-top: 2px;
+  font-size: 15px;
+}
+/* ====================== offline Ticket end ====================== */
+
+/* ====================== offline Ticket Mini start ====================== */
+
+.offlineTicketModalClassMini {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+.offlineTicketModalMini-content {
+  background-color: #fefefe;
+  margin: 13% auto;
+  width: 82rem;
+  height: 26rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  border-top: 10px solid #7f5cde;
+  padding-top: 1rem;
+}
+.offlineTicketModalMini-body {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offlineTicketSpaceMini {
+  width: 82rem;
+  height: 25rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../public/img/banner/대표님이력.jpg");
+  /* box-shadow: 8px 8px 12px rgba(0, 0, 0, 0.25); */
+}
+.closeOfflineTicketMini {
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  /* border: 1px solid black; */
+  background: white;
+  border-radius: 30px;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeOfflineTicketMini:hover,
+.closeOfflineTicketMini:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.offlineTicketModalClassMini.show {
+  display: block;
+}
+
+/* ====================== offline Ticket Mini end ====================== */
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateX(-30px);
+  }
+  50% {
+    transform: translateX(10px); /* 움직일 거리 조절 */
+  }
+}
+
+.move-animation {
+  animation: move 1.5s infinite; /* 애니메이션 2초 동안 반복 */
+}
+.slideWrap2 {
+  height: 40rem; /* 적절한 높이로 설정해주세요 */
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 7rem;
+}
+.slideUp {
+  padding: 0 222px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slideCard {
+  width: 47rem;
+  height: 16rem;
+  border: 3px solid #7f5cde;
+  border-radius: 15px;
+  margin-bottom: 1.25rem;
+}
+.slideCardContent {
+  height: 100%;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameAndStar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nameAndImg {
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgIcon {
+  width: 60px;
+  height: 60px;
+}
+.nameSpace {
+  font-size: 25px;
+  font-weight: 600;
+}
+.star {
+  width: 25px;
+  height: 25px;
+}
+.review {
+  width: 100%;
+  height: 6rem;
+  font-size: 22px;
+}
+.reviewSpan {
+  font-size: 24px;
+  font-weight: 600;
+}
+.slideUp.original {
+  animation: rollingleft1 40s linear infinite;
+}
+.slideUp.clone {
+  animation: rollingleft2 40s linear infinite;
+}
+
+@keyframes rollingleft1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100%);
+  }
+  50.01% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes rollingleft2 {
+  0% {
+    transition: translateY(0);
+  }
+  100% {
+    transform: translateY(-200%);
+  }
+}
+mark {
+  background: linear-gradient(to top, #a495e4 34%, transparent 30%);
+  background-size: 100% 78%;
+  padding: 0;
+}
+.realReview {
+  font-family: Reko !important;
+  font-size: 70px;
+}
+.mark2 {
+  background: linear-gradient(to top, #b3a8e4a2 65%, transparent 50%);
+  background-size: 100% 85%;
+  padding: 0;
+}
+.blocks11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #7f5cde;
+}
+.sum1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94rem;
+  margin-top: 3rem;
+  height: 3.5rem;
+  background: #695ca6;
+  border-radius: 30px;
+  color: white;
+}
+.cardSum1 {
+  font-size: 25px;
+  font-family: Reko !important;
+  margin-top: 10px;
+}
+.sum2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 94rem;
+  margin-top: 3rem;
+  height: 3.5rem;
+  background: #695ca6;
+  border-radius: 30px;
+  color: white;
+}
+.cardSum2 {
+  font-size: 25px;
+  font-family: Reko !important;
+  margin-top: 10px;
+}
+.preViewBtn {
+  float: right;
+  width: 25rem;
+  height: 40px;
+  font-weight: 600;
+  font-size: 20px;
+  background: linear-gradient(45deg, #755fce, #5a86c3);
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  position: absolute;
+  left: 29.5%;
+  top: 52%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

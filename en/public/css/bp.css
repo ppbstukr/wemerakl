@@ -1,0 +1,194 @@
+.portfolio-banner{
+    width: 100%;
+    min-height:24rem;
+    background-image: url(/public/img/portfolio/bp_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-menu{
+    padding-top: 1rem;
+    width: 64rem;
+    min-height: 5rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-menu>ul{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-menu>ul>li{
+    width:5rem;
+    padding:0.5rem 1rem;
+    text-align: center;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+}
+
+.portfolio-menu>ul>li:last-child{
+    border:none;
+}
+
+.portfolio-menu>ul>li>h3>a{
+    font-size: 0.8rem;
+}
+
+.portfolio-menu>ul>li .active{
+    color: #f7789e;
+}
+
+.business-portfolio{
+    width:64rem;
+    min-height:30rem;
+    margin:0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+}
+
+.business-feed{
+    width:20rem;
+    /* height:20rem; */
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    /* border: 1px solid #dcdcdc; */
+}
+
+.business-feed>ul{
+    width:100%;
+    height:100%;
+}
+
+.business-feed>ul>li{
+    width:100%;
+    padding:0.5rem 0;
+}
+
+.business-img{
+    width:100%;
+    height:16.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .business-img:hover{
+    transition: all 3s;
+}
+.business-img:hover::after{
+    position: absolute;
+    width:90%;
+    height:90%;
+    content:attr(id);
+    color:#fff;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 0.7rem;
+    padding:0 1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+} */
+
+.business-feed>ul .business-img>img{
+    width:100%;
+    height: 100%;
+    display:block;
+}
+
+.business-name{
+    height:20%;
+    color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.business-name>h3{
+    font-size: 0.9rem;
+}
+.business-text>h3{
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+/* .business-feed:hover{
+    background-color:rgb(218, 236, 247);
+} */
+
+/*포트폴리오 등록버튼*/
+.portfolio-write{
+    margin-top: 1rem;
+    width:100%;
+    text-align: right;
+    z-index: 99;
+}
+
+.new-portfolio{
+    font-size: 0.7rem;
+    width:4rem;
+    height:2rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.new-portfolio:hover{
+    background-color: #143974;
+    color:#fff;
+}
+
+#bp_summary{
+    width:100%;
+    height: 5rem;
+}
+
+@media screen and (max-width:414px){
+    .portfolio-menu{
+        width:30rem;
+    }
+
+    .portfolio-menu>ul>li{
+        padding:0.5rem;
+    }
+
+    .business-portfolio{
+        width:30rem;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .business-feed{
+        width:14rem;
+
+    }
+
+    .business-feed>ul .business-img{
+        width:14rem;
+        height:12rem;
+    }
+    .portfolio-banner{
+        min-height: 15rem;
+    }
+    .business-text{
+        height:100%;
+    }
+
+
+}

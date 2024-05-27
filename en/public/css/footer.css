@@ -1,0 +1,64 @@
+html,
+header,
+div,
+a,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+tr,
+td,
+th,
+label,
+input,
+select,
+button {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 20px;
+}
+
+body {
+    font-size: 1rem;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#footer {
+    position: relative;
+    background-color: rgba(56, 56, 56, 1);
+    /* position:absolute; */
+    /* padding-left: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copyright {
+    width: 64rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .6rem;
+    padding: 2rem 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    line-height: 200%;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+.navbar_login {
+    position: absolute;
+    bottom: 3rem;
+    right: 5rem;
+    color: rgba(56, 56, 56, 1);
+    font-size: 0.5rem;
+    cursor: pointer;
+}

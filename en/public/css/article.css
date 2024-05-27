@@ -1,0 +1,192 @@
+.notice-banner{
+    width: 100%;
+    min-height:22rem;
+    background-image: url(/public/img/topbanner/top_banner06.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notice-area{
+    width:100%;
+    min-height: 50%;
+    padding: 2rem 0;
+}
+.notice-content{
+    width:64rem;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+
+}
+.notice-menu{
+    width:15rem;
+}
+
+.notice-menu>ul{
+    width:100%;
+    text-align: center;
+}
+.notice-menu>ul>li{
+    width:100%;
+    padding:1rem 0;
+    border-bottom: 3px solid #bdbdbd;
+}
+.notice-menu>ul>li>a{
+    color:#707070;
+    font-size: 0.8rem;
+}
+.notice-menu>ul>li:nth-child(2){
+    background-color: #644D9D;
+}
+.notice-menu>ul>li:nth-child(2)>a{
+    color:#fff;
+}
+.notice-menu>ul>li:hover{
+    background-color: #644D9D;
+}
+.notice-menu>ul>li:hover>a{
+    color:#fff;
+}
+
+.notice-board-area{
+    width:45rem;
+    height:35rem;
+    padding:1rem 0;
+    position: relative;
+}
+
+.n_title{
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom:3px solid #bdbdbd;
+}
+
+.n_title>h1{
+    font-size: 1.2rem;
+}
+
+/* 소통공간 서브페이지 루트 */
+.route{
+    width:100%;
+    font-size: 0.7rem;
+    color:#dcdcdc;
+    padding: 10px 0;
+}
+.route>a{
+    font-size: 0.7rem;
+    color:#bdbdbd;
+}
+
+/* 공지사항 보드 */
+
+.notice-board{
+    width:100%;
+    display:table;
+    border-width: 5px 0 0 0;
+    border-style: solid;
+    border-color: #644D9D;
+}
+
+.notice-board ul{
+    list-style: none;
+    margin-bottom: 0;
+    clear:both;
+    display: table-row-group;
+    padding-left: 0;
+}
+
+.notice-board ul li{
+    font-size: 0.7rem;
+    padding:15px 7px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: rgba(33,33,33,0.15);
+    color: rgb(33,33,33);
+}
+
+.notice-board ul li.no{
+    width: 5%;
+}
+
+.notice-board ul li.name{
+    width:10%;
+}
+.notice-board ul li.date{
+    width:20%;
+}
+.notice-board ul li.read{
+    width:10%;
+}
+.notice-board ul li.title{
+    width:auto;
+}
+.notice-board ul li.title a{
+    font-size: 0.7rem;
+    color: rgb(33,33,33);
+}
+
+/* 페이지 처리*/
+.page_num{
+    position: absolute;
+    width: 100%;
+    bottom: 2rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.page_num a{
+    color:#bdbdbd;
+    font-size: 0.8rem;
+}
+.page_num b{
+    /* padding:1px 1px 1px 5px;
+    background-color: #143974;
+    color:#fff;
+    border-radius: 15px; */
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/*게시글 등록버튼*/
+.notice-write{
+    margin-top: 1rem;
+    width:100%;
+    text-align: right;
+    z-index: 99;
+}
+
+.new-notice{
+    font-size: 0.7rem;
+    width:4rem;
+    height:2rem;
+    background-color: #fff;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.new-notice:hover{
+    background-color: #644D9D;
+    color:#fff;
+}
+
+@media screen and (max-width:414px){
+    .notice-menu{
+        display: none;
+    }
+    .notice-content{
+        width:30rem;
+    }
+    .notice-board-area{
+        width:30rem;
+        height:50rem;
+    }
+    .notice-board>ul>li.read{
+        width:12%;
+    }
+}

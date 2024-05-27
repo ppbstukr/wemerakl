@@ -1,0 +1,242 @@
+body{
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.business{
+    min-height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #e0e0e0;
+    font-family: 'Roboto', sans-serif !important;
+}
+.down_btn{
+    background: rgba(17,17,17,0.6);
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+    padding: 2px 16px;
+    line-height: 20px;
+    border-radius:30px;
+    border:none;
+    letter-spacing:-1px;
+    width: fit-content;
+    margin: auto;
+}
+.down_btn:hover{
+    box-shadow:1px 1px 4px rgba(0,0,0,0.4);
+
+}
+.aboutus-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/자산1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gmac-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/액셀.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bmps-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/BMPS-mini.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.irds-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/IRDS-mini.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sup-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/지원사업.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edu-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/교육.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.co-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/co.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.po-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(../img/banner/po.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2rem solid rgb(100,77,157);
+}
+
+.ourbiz-banner{
+    width: 100%;
+    min-height:40rem;
+    background-image: url(/public/img/topbanner/top_banner01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.business-area{
+    width:64rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding:2rem 0;
+    /* border:1px solid #f00; */
+}
+
+.business-area>img{
+    width: 100%;
+}
+    
+.business-intro{
+    width:100%;
+    text-align: center; 
+    flex-wrap: wrap;
+}
+
+.subCont{
+    width:45rem;
+    margin: 0 auto;
+}
+
+.subCont img{
+    width:100%;
+    /* margin-top: 20px; */
+}
+
+.bottom-img{
+    width:45rem;
+    margin: 0 auto;
+}
+.bottom-img-team{
+    width:55rem;
+    margin: 0 auto;
+}
+
+.bottom-img img{
+    width:100%;
+}
+.bottom-img-team img{
+    width:100%;
+}
+
+.top_menu{
+    width:100%;
+    margin: 0 auto;
+    height: 2rem;
+    background-color: rgb(100, 77, 157);
+}
+
+.top_menu ul{
+    /* border:1px solid #f00; */
+    display: flex;
+    justify-content: center;
+}
+
+.top_menu ul li{
+    text-align: center;
+    width: 13rem;
+    /* margin:0 0.2rem; */
+    padding: 0.1rem;
+    display: inline-block;
+    height: 2rem;
+}
+
+.top_menu ul li a{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.top_menu ul li:hover{
+    background-color: #9999ff;
+
+}
+
+@media screen and (max-width:414px){
+    html{font-size: 12px;}
+    .subCont{width:30rem;}
+    .bottom-img{width:30rem;}
+    .business-area{
+        width:30rem;
+    }
+    .business-area>img{
+        width: 100%;
+    }
+    .aboutus-banner{
+        min-height: 15rem;
+    }
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}

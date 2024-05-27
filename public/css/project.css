@@ -1,0 +1,320 @@
+.container{
+    margin-top: 80px;
+}
+
+.project-banner-wrap{
+    position: relative;
+}
+
+/* .project-banner{
+    background-color:lightblue;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20rem;
+    margin: 0 auto;
+    transition: all 0.5s;
+} */
+
+.project-banner{
+    /* background-color:lightblue; */
+    background-image: url('../img/topbanner/top_banner09.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    height:20rem;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+.project-banner h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Nanum Pen Script', cursive !important;
+}
+
+.project-banner::before, .project-banner::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 100%;
+    z-index: 10;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.project-banner::before{
+    left:0;
+}
+
+.project-banner::after{
+    right: 0;
+}
+
+.--full .project-banner::before,.--full .project-banner::after{
+    width:0%;
+}
+.project-wrap{
+    width:100%;
+}
+
+.edu-project-title{
+    max-width:64rem;
+    margin:0 auto;
+    padding: 5rem 1rem;
+    box-sizing: border-box;
+}
+
+.edu-project-title h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666666;
+    letter-spacing: 3.6px;
+}
+
+.edu-project-title h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1.28px;
+    margin-top: 10px;
+}
+
+.rnd-project-title{
+    position: relative;
+    overflow: hidden;
+    max-width:64rem;
+    margin:0 auto 3rem;
+    padding: 5rem 1rem;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.rnd-project-title h3{
+    position: absolute;
+    left:-300;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666666;
+    letter-spacing: 3.6px;
+    transition: all 0.5s;
+}
+
+.rnd-project-title h2{
+    position: absolute;
+    left:-300;
+    bottom:30;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1.28px;
+    /* margin-top: 10px; */
+    transition: all 0.5s;
+}
+
+.edu-content-wrap{
+    position: relative;
+}
+
+.edu-content{
+    width:100%;
+    height:50rem;
+    margin:0 auto;
+    /* background-color: #fcf2ff; */
+    background-image: url('../img/project/statup-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.edu-content::before, .edu-content::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 10%;
+    height: 100%;
+    z-index: 10;
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.edu-content::before{
+    top:0;
+    left:0;
+}
+
+.edu-content::after{
+    top:0;
+    right:0;
+}
+
+.--full .edu-content::before, .--full .edu-content::after{
+    width:0%;
+}
+
+.program-wrap{
+    width:64rem;
+    margin:0 auto;
+    padding: 5rem 1rem 8rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.edu-program,.rnd-program{
+    position: relative;
+    width:16rem;
+    height: 20rem;
+    margin-right: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:5px 5px 5px rgba(150, 150, 150, 0.3);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.bg-edu{
+    display: none;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(60, 73, 253, 0.5);
+    transition: all 0.5s;
+}
+
+.bg-edu h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.edu-program:hover, .rnd-program:hover{
+    transform: translate(0%, -10%);
+}
+
+.edu-program:hover .bg-edu, .rnd-program:hover .bg-edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edu-program:last-child, .rnd-program:last-child{
+    margin-right: 0;
+}
+
+
+
+.edu-image,.rnd-image{
+    width:100%;
+    height:12rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    overflow: hidden;
+    /* background-image: url('../img/card/card_01.png');
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.edu-image img, .rnd-image img{
+    width: 100%;
+}
+
+.edu-program-title, .rnd-program-title{
+    padding:1.5rem;
+}
+.edu-program-title span, .rnd-program-title span{
+    font-size: 0.7rem;
+    color: #fff;
+    background-color:#345aa0;
+    border-radius: 2px;
+    padding:8px 10px;
+}
+
+.edu-program-title h3, .rnd-program-title h3{
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.edu-program-title h4, .rnd-program-title h4{
+    color: #666666;
+    font-size: 0.9rem;
+    margin: 0.5rem 0 1rem 0;
+}
+
+/*rnd*/
+.rnd-content{
+    width:100%;
+    height:50rem;
+    margin:0 auto;
+    /* background-color: #f2f8ff; */
+    background-image: url('../img/project/rnd-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.program-bar{
+    width:60rem;
+    height: 4px;
+    margin-top:2.5rem;
+    border-radius: 2px;
+    background-color: #777777;
+}
+
+/*슬라이드*/
+.program-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 136px;
+    margin: 52px auto 0;
+}
+
+.program-slide .program-pre, .program-slide .program-next{
+    width: 44px;
+    height: 44px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.program-slide .program-pre:hover, .program-slide .program-next:hover{
+    opacity: 1;
+}
+
+.program-pre{
+    background-image: url('../img/project//back--white.svg');
+}
+.program-next{
+    background-image: url('../img/project/next--white.svg');
+}
+
+.title-event-1{
+    left:10 !important;
+}
+.title-event-2{
+    left:10 !important;
+    bottom: 30 !important;
+}

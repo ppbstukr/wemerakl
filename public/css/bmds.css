@@ -1,0 +1,148 @@
+.bmds-banner{
+    width: 100%;
+    min-height:24rem;
+    background-image: url(/public/img/topbanner/top_banner02.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmds-area{
+    width:100%;
+    min-height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: #f8fcff; */
+}
+
+.bmdswrap{
+    width:64rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bmdswrap video{
+    margin:1rem;
+    width:40rem;
+    box-shadow: 0.5rem 0.5rem 2px 1px rgba(130, 130, 136, 0.704);
+}
+
+.bmds-intro{
+    width:100%;
+}
+
+.bmds-intro img{
+    margin: 1rem 0 1rem 0;
+    width:100%;
+}
+
+.bmds-intro p{
+    font-size:1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.bmds-intro p>span{
+    font-size: 0.8rem;
+}
+.bmds-intro p{
+    font-size:1rem;
+    font-weight: 600;
+    line-height: 2rem;
+    margin-bottom:1rem;
+}
+
+.bmds-intro ul li{
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.chapter-1{
+    background-color: #d8effd;
+    margin: 1rem 0;
+}
+
+.chapter-1 h1{
+    font-size: 3rem;
+    padding: 1rem 0 0 1rem; 
+    font-weight: 700;
+}
+.chapter-1 h2{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.img_title{
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.img_title img{
+    margin:0;
+    width: 100%;
+}
+
+.chapter-2{
+    background-color: #f6f1f8;
+    margin: 1rem 0;
+}
+
+.chapter-2 h1{
+    font-size: 3rem;
+    padding: 1rem 0 0 1rem; 
+    font-weight: 700;
+}
+.chapter-2 h2{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.chapter-3{
+    background-color: #fdf1d1;
+    margin: 1rem 0;
+}
+
+.chapter-3 h1{
+    font-size: 3rem;
+    padding: 1rem 0 0 1rem; 
+    font-weight: 700;
+}
+.chapter-3 h2{
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.bm_location{
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#bm_service{
+    margin: auto;
+    padding: 11px 70px;
+    font-size: 26px;
+    color: #fff;
+    background: #644D9D;
+    border-radius: 15px;
+    border: 1px solid #644D9D;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:414px){
+    .bmdswrap{
+        width:32rem;
+    }
+    .bmdswrap video{
+        width:30rem;
+    }
+}

@@ -1,0 +1,199 @@
+#floatMenu {
+  position: absolute;
+  width: 261px;
+  height: 317px;
+  /* width: 30rem;
+  height: 36rem; */
+  right: 0px;
+  top: 40% !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  /* background-color: rgba(17, 17, 17, 0.7); */
+  background-image: url("../img/banner/자산\ 27.png");
+  color: #fff;
+  border-radius: 10px;
+  z-index: 99;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.btn_purple4 {
+  width: 187px;
+  height: 46px;
+  border-radius: 7px;
+  color: white;
+  font-size: 20px;
+  background: #54d1c5;
+  opacity: 0;
+  font-weight: 500;
+  margin-top: 160px;
+  margin-right: 58px;
+}
+.Icon {
+  width: 80px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-bottom: 1rem; */
+  font-size: 0.7rem;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+.Icon > span {
+  color: #fff;
+  display: none;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.Icon:first-child:hover {
+  width: 250px;
+  height: 75px;
+  right: 0px;
+  justify-content: flex-end;
+  background-color: rgba(52, 52, 52);
+}
+
+.Icon:hover > span {
+  display: flex;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+
+.Icon:hover > img {
+  margin-right: 1rem;
+}
+
+.Icon:hover > .ff {
+  margin-right: 13px;
+}
+
+.Icon:nth-child(2):hover {
+  width: 300px;
+  height: 75px;
+  right: 0px;
+  justify-content: flex-end;
+  background: #11998e;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Icon:nth-child(3):hover {
+  width: 300px;
+  height: 75px;
+  right: 0px;
+  justify-content: flex-end;
+  background: #f7ff00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #db36a4, #f7ff00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Icon:nth-child(4):hover {
+  width: 300px;
+  height: 75px;
+  right: 0px;
+  justify-content: flex-end;
+  background: #0575e6;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #021b79, #0575e6);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #021b79, #0575e6);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.Icon:last-child {
+  margin: 0;
+}
+
+.Icon > img {
+  height: 48px;
+}
+
+@media screen and (max-width: 414px) {
+  #floatMenu {
+    display: none;
+  }
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
